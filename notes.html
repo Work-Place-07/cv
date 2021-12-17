@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- links and anchor tag -->
+    <!--  Links are created using the <a> element.
+         The <a> element uses the href attribute to indicate
+        the page you are linking to.
+         If you are linking to a page within your own site, it is
+        best to use relative links rather than qualified URLs.
+         You can create links to open email programs with an
+        email address in the "to" field.
+         You can use the id attribute to target elements within
+        a page that can be linked to. -->
+        <h1>fill your details:</h1>
+    <table>
+        <form>
+            <b>
+            <tr>
+                <td> name: </td>
+                <td class="border"><input type="text" placeholder="type here!"></td>
+            </tr>
+            
+            <tr>
+                <td> Email:</td>
+                <td class="border"> <input type="email"></td>
+            </tr>
+            <tr>
+                <td> password: </td>
+                <td class="border"> <input type="password" placeholder="enter your password"></td>
+            </tr>
+            <tr>
+                <td>date:</td>
+                <td class="border"><input type="date"></td>
+            </tr>
+            <tr>
+                <!-- to select one give name artribute same as car for both -->
+                <td> male:<input type="radio" name="button"> </td> 
+                <td> female:<input type="radio" name="button"></td>
+            </tr>
+            <tr>
+                <td>AUDI A8: <input type="checkbox"></td>
+                <td> BMW Q7:<input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>color: </td>
+                <td class="border"> <input type="color"></td>
+            </tr>
+            <td></td>
+
+            </b>            
+        </form>
+    </table>
+        <!-- select your city:
+        <select>
+            <option value="">bihar</option>
+            <option value="">mumbai</option>
+            <option value="">asam</option>
+            <option value="">calcutta</option>
+            <option value="">delhi</option>
+        </select> -->
+        select your city:
+        <select class="border">
+            <option value="">delhi</option>
+            <option value="">bihar</option>
+            <option value="">calcutta</option>
+            <option value="">mumbai</option>
+            <option value="">punjab</option>
+            <option value="">bangalore</option>
+        </select>
+        <input type="submit" class="border">
+        <h2>Table data</h2>
+       <div>
+        <table border="2px" class="border">
+            <thead>
+                <tr>
+                    <th>date</th>
+                    <th>income</th>
+                    <th>expenditure</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>01-jan</th>
+                    <td>400</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th>01-jan</th>
+                    <td>400</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th>01-jan</th>
+                    <td>400</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th>01-jan</th>
+                    <td>400</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th>01-jan</th>
+                    <td>400</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th>01-jan</th>
+                    <td>400</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th>01-jan</th>
+                    <td>400</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th>01-jan</th>
+                    <td>400</td>
+                    <td>200</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td>7654</td>
+                    <td>8760</td>
+                </tr>
+            </tfoot>
+        </table>
+       </div>
+       <br><br><br>
+</body>
+
+</html>
