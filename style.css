@@ -1,101 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
 body{
-    background-color: whitesmoke;
-    color: #536162;
-    /* text-align: center; */
-
+    font-family:"Montserrat", sans-serif;
+    max-width: 50%;
+    margin: auto;
 }
-a{
-    color: #536162;
-    font-size: 30px;
-}
-mark{
-    background-color: rgb(175, 238, 247);
-}
-.hello{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-}
-.mine{
-    width: 200px;
-    height: 200px;
-    border-radius: 30%;
-}
-.hrs{
-    background-color: rgb(116, 112, 112);
-    /* padding: 1px; */
-    /* margin: 5px; */
-}
-.work{
-    color: #536162;
-    
-}
-marquee{
-    color: rgb(250, 164, 34);
-    
-}
-.worked{
-    color: coral;
-}
-/* h2 */
-.small{
-    font-variant:small-caps;
-    color: rgb(85, 88, 88);
-    font-size: 40px;
-    letter-spacing: .30em;
-    text-decoration:underline;
-
-}
-/* p */
-.spac{
-    word-spacing: 0.50em;
-    text-transform: uppercase;
-    /* text-transform: lowercase; */
-}
-.border{
-    /* border-style:dashed; */
-    
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: rgb(221, 137, 40);
-}
-.google{
-    width: 200px;
-    height: 200px;
-    border-radius: 450%;
-}
-.display{
+.header{
     display: flex;
     align-items: center;
-    
 }
-.blue{
-    color: rgb(88, 88, 189);
+.face{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
 }
-.red{
-    color: rgb(153, 38, 38);
-}
-.yello{
-    color: rgb(235, 190, 45);
-}
-.blue{
-    color: rgb(102, 102, 197);
-}
-.green{
-    color: rgb(39, 138, 39);
-}
-.red{
-    color: rgb(167, 64, 64);
-}
-.font{
-    font-size: 2em;
+.title{
     flex: 1;
+    margin-left: 20px;
 }
-.fs{
-    font-size: 1.5em;
+.name{
+    color: grey;
 }
-.letter-space{
-    word-spacing: 0.30em;
-    letter-spacing: 2px;
+.coral{
+    color: coral;
+}
+.qualification{
+    letter-spacing: 1px;
+    color: grey;
+}
+.hrline{
+    border: 1px solid coral;
+}
+.table-heading{
+    min-width: 300px;
+    display:block;
+}
+.table-props{
+    color: coral;
+    font-size: 22px;
+}
+.marginfix{
+    margin-top: 20px;
+}
+.jobheading{
+    font-size: 20px;
+    line-height: 25px;
+    color: grey;
+}
+.jobduration{
+    font-weight: 300;
+    line-height: 25px;
+}
+.jobdescription{
+    margin-top: 20px;
+}
+.table-pro{
+    color: coral;
+}
+.amed{
+    color:grey;
+}
+.text{
+    font-size: 18px;
+    line-height: 25px;
+    color: grey;
+}
+.levels{
+    color: grey;
+    font-weight: 300px;
+    font-size: 18px;
+    margin-bottom: auto;
 }
